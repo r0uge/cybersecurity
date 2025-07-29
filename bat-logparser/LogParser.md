@@ -7,7 +7,7 @@ Es un script para poder procesar un conjunto de archivos CSV mediante la herrami
 
  - Backup del archivo a existente 
  - Calcula la diferencia en Mb entre el backup y el nuevo archivo 
- - Generación de un log de operaciones con fecha y hora
+ - Generación de un log de operaciones con fecha y hora, cantidad de registros procesados y tiempo de ejecución
 
 ## Desafios
 
