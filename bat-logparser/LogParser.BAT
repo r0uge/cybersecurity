@@ -159,17 +159,19 @@ exit /b 1
 :end
 :: Limpiar archivos temporales
 if exist temp_logparser_output.txt del temp_logparser_output.txt
-rem //AQUI SE PUEDE COLOCAR PROGRAMA ADICIONAL A EJECUTAR//
 
 echo.
-echo -----======== FINALIZADO ========-----
+echo Recordar Actualizar Dashboard de PowerBI
+echo.
+
+
 echo.
 echo Presiona cualquier tecla para salir...
 pause >nul
 exit /b 0
 
 :: ==========================================
-:: FUNCIONES AUXILIARES
+:: FUNCIONES AUXILIARES - SOLO BATCH
 :: ==========================================
 
 :ConvertirAMBSimple
